@@ -1,12 +1,13 @@
 
 voir le type de fichier avec la commande `file` , 
 
-![[file_result.png]]
+
+<img title="file command" alt="Alt text" src="file_result.png">
 c'est un fichier binaire.
 
 
 - on fait un `strings` pour voir si on peut trouver quelque chose mais  rien.
-```bash
+``` zsh
 └─$ strings ecowas_portal      
 /lib64/ld-linux-x86-64.so.2
 mgUa
@@ -170,13 +171,15 @@ int __cdecl main(int argc, const char **argv, const char **envp)
     printf("Flag wrong. Try again.");
     return 1;
   }
-} ```
+} 
+```
 
 on trouve un tableau (`v6`) de **25 caractères** (Sound interesting )
 renommer les variables: 
  `v6` : `chars_flag`, `v10`: `flag_length`, `s`; `input`.
  
- j'ai converti ce code en python:
+ Convertion en python:
+ 
  ``` python
 import string 
 
