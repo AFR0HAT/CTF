@@ -1,5 +1,5 @@
 
-voir le type de fichier avec la commande `file` , 
+- voir le type de fichier avec la commande `file` , 
 
 
 <img title="file command" alt="Alt text" src="file_result.png">
@@ -178,7 +178,7 @@ on trouve un tableau (`v6`) de **25 caractères** (Sound interesting )
 renommer les variables: 
  `v6` : `chars_flag`, `v10`: `flag_length`, `s`; `input`.
  
- Convertion en python:
+ En python:
  
  ``` python
 import string 
