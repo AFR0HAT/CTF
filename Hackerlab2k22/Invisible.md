@@ -2,7 +2,7 @@ on regarde le type de fichier `file invisible` (c'est du binaire)
 `strings invisble` ne donne rien.
 `chmod +x invsible` pour rendre le fichier éxecutable.
 
-**déssemblage sur https://dogbolt.org
+**déssemblage sur https://dogbolt.org**
 
 fonction main et print_flag:
 
