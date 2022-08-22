@@ -48,7 +48,7 @@ donc, pour le défi, quelques faits que nous pouvons lire à partir du binaire 
 - donc la seule chose que nous devons faire est d'écraser `admin` à `200`.
 
 - *Nous avons trouvé quelque chose d'intéressant: `print(s)` c'est à dire que notre input sera affiché d'abord.* Voyons celà   
-![[test1.png]]
+<img text="test1" src=/screenshots/test1.png">
 Sound interesting ;-) .
 Testons le **Format string vulnerability**  [article:](https://infosecwriteups.com/exploiting-format-string-vulnerability-97e3d588da1b):
 ![[formatstring.png]]
