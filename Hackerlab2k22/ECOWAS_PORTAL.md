@@ -2,7 +2,7 @@
 - voir le type de fichier avec la commande `file` , 
 
 
-<img title="file command" alt="Alt text" src="CTF/Hackerlab2k22/screenshots/file_result.png">
+<img title="file command" alt="Alt text" src="https://github.com/AFR0HAT/CTF/blob/main/Hackerlab2k22/screenshots/file_result.png">
 c'est un fichier binaire.
 
 
