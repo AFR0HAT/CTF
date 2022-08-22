@@ -48,10 +48,11 @@ donc, pour le défi, quelques faits que nous pouvons lire à partir du binaire 
 - donc la seule chose que nous devons faire est d'écraser `admin` à `200`.
 
 - *Nous avons trouvé quelque chose d'intéressant: `print(s)` c'est à dire que notre input sera affiché d'abord.* Voyons celà   
-<img text="test1" src=/screenshots/test1.png">
+<img title="test1" src="https://github.com/AFR0HAT/CTF/blob/main/Hackerlab2k22/screenshots/test1.png">
 Sound interesting ;-) .
 Testons le **Format string vulnerability**  [article:](https://infosecwriteups.com/exploiting-format-string-vulnerability-97e3d588da1b):
-![[formatstring.png]]
+<img title="formatstring" src="https://github.com/AFR0HAT/CTF/blob/main/Hackerlab2k22/screenshots/formatstring.png">
+
 Gooooddddd !!! nous avons des addresses du stack.
 
 - **Allons plus loin**: Où est stocké notre input?
@@ -68,10 +69,12 @@ for i in range(10):
 ```
 
 l'argument 8 afficher notre input en  `hex`:
-![[arg8.png]]
+<img title="arg8" src="https://github.com/AFR0HAT/CTF/blob/main/Hackerlab2k22/screenshots/arg8.png">
+
 
 Maintenant on cherche l'adresse de la fonction `admin`:
-![[adminfunc.png]]
+<img title="adminfunc.png" src="https://github.com/AFR0HAT/CTF/blob/main/Hackerlab2k22/screenshots/adminfunc.png">
+
 
 Cherchons notre padding entre le format string et l'addresse:
 addresse `%8$n`  commence à l'octet 0
